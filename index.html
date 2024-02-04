@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avii Fitness</title>
+</head>
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+    /* CSS Reset*/
+    body {
+        font-family: cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+
+    }
+
+    .left {
+        display: inline-block;
+        top: 20px;
+        left: 34px;
+        position: absolute;
+
+    }
+
+    .left img {
+        width: 90px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        line-height: 12px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .center {
+        display: block;
+        margin: 23px auto;
+        width: 33%;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 33px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 12px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: cursive;
+        margin: 0px 8px;
+        background-color: black;
+        color: white;
+        padding: 4px 13px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(120, 118, 118);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 99px 803px;
+        padding: 12px 61px;
+        width: 30%;
+        border-radius: 8px;
+    }
+
+    .form-grop input {
+        font-family: cursive;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 7px;
+        margin: 12px auto;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 229px;
+        margin: auto;
+        font-size: 17px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>Avii Fitness</div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS INFO</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Our Gym</h1>
+        <form action="noaction.php">
+            <div class="form-grop">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-grop">
+                <input type="text" name="" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-grop">
+                <input type="text" name="" id="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-grop">
+                <input type="text" name="" id="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-grop">
+                <input type="text" name="" id="" placeholder="Enter Your Phone Num">
+            </div>
+            <div class="form-grop">
+                <input type="text" name="" id="" placeholder="Enter Your Email id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
